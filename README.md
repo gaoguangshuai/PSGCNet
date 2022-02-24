@@ -2,10 +2,30 @@
 
  Framework
  -------------------
+！[](https://github.com/gaoguangshuai/PSGCNet/blob/main/framework.png)
 
-
-Results
+Visualization
 ---------------------
+RSOC:
+![](https://github.com/gaoguangshuai/PSGCNet/blob/main/visualization_RSOC.png)
+CARPK:
+![](https://github.com/gaoguangshuai/PSGCNet/blob/main/visualization_CARPK.png)
+Crowd:
+![](https://github.com/gaoguangshuai/PSGCNet/blob/main/visualization_Crowd.png)
+
+Result
+-----------------------
+RSOC:
+![](https://github.com/gaoguangshuai/PSGCNet/blob/main/result_RSOC.png)
+CARPK:
+![](https://github.com/gaoguangshuai/PSGCNet/blob/main/result_CARPK.png)
+Drone_crowd:
+![](https://github.com/gaoguangshuai/PSGCNet/blob/main/result_Drone.png)
+Crowd:
+![](https://github.com/gaoguangshuai/PSGCNet/blob/main/result_Crowd.png)
+
+
+
 
 
 
