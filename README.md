@@ -68,11 +68,11 @@ The result is slightly influenced by the random seed, but fixing the random seed
 
 ### Citation
 -------------------
-@article{gao2022psgcnet,
-  title={PSGCNet: A Pyramidal Scale and Global Context Guided Network for Dense Object Counting in Remote Sensing Images},
-  author={Gao, Guangshuai and Liu, Qingjie and Hu, Zhenghui, and Li, Lu and Wen, Qi and Wang, Yunhong},
-  journal={IEEE Transactions on Geoscience and Remote Sensing},
-  year={2022}
+@article{gao2022psgcnet,  
+  title={PSGCNet: A Pyramidal Scale and Global Context Guided Network for Dense Object Counting in Remote Sensing Images},  
+  author={Gao, Guangshuai and Liu, Qingjie and Hu, Zhenghui, and Li, Lu and Wen, Qi and Wang, Yunhong},  
+  journal={IEEE Transactions on Geoscience and Remote Sensing},  
+  year={2022}  
 }
 
 
