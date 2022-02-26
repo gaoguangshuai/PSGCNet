@@ -1,4 +1,6 @@
  # This repo an official implement of TGRS2022 paper “PSGCNet: A Pyramidal Scale and Global Context Guided Network for Dense Object Counting in Remote Sensing Images”, which is implemented in Pytorch!
+ 
+Paper link: https://arxiv.org/pdf/2012.03597v3.pdf
 
  Framework
  -------------------
