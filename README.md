@@ -40,15 +40,15 @@ torch >= 1.0 torchvision opencv numpy scipy, all the dependencies can be easily 
 This code was tested with python 3.6
 
 ### Train and Test
-1. Dowload Dataset
-2. Pre-Process Data (resize image and split train/validation)
-python preprocess_dataset.py --origin_dir <directory of original data> --data_dir <directory of processed data>
-
-3、 Train model (validate on single GTX Titan X)
-python train.py --data_dir <directory of processed data> --save_dir <directory of log and model>
-4. Test Model
-python test.py --data_dir <directory of processed data> --save_dir <directory of log and model>
-5、 Training on ShanghaiTech Dataset
+1. Dowload Dataset  
+2. Pre-Process Data (resize image and split train/validation)  
+3. python preprocess_dataset.py --origin_dir <directory of original data> --data_dir <directory of processed data>  
+4. Train model (validate on single GTX Titan X)  
+python train.py --data_dir <directory of processed data> --save_dir <directory of log and model>  
+5. Test Model  
+python test.py --data_dir <directory of processed data> --save_dir <directory of log and model>  
+ 
+6. Training on ShanghaiTech Dataset  
 For SHT_A, you should set learning rate to 1e-6, and bg_ratio to 0.1
 
 
