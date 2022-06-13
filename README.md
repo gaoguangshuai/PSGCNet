@@ -1,9 +1,17 @@
 ﻿# PSGCNet: A Pyramidal Scale and Global Context Guided Network for Dense Object Counting in Remote Sensing Image
  
  ###
+ 
  The overal framework architecture
+ 
  ![image](https://github.com/gaoguangshuai/PSGCNet/framework.png)
  
+  ###
+  
+  The visualization on RSOC
+  
+  ![image](https://github.com/gaoguangshuai/PSGCNet/visualization_RSOC.png)
+  
  
  
  
