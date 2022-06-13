@@ -1,4 +1,34 @@
-﻿# PSCNet-Crowd-Counting-master
+﻿# PSGCNet: A Pyramidal Scale and Global Context Guided Network for Dense Object Counting in Remote Sensing Image
+ 
+ ###
+ The overal framework architecture
+ ![image](https://github.com/gaoguangshuai/PSGCNet/framework.png)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
 ###  
  Code
