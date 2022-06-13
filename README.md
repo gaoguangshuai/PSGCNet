@@ -4,39 +4,42 @@
  
  The overal framework architecture
  
- ![image](https://github.com/gaoguangshuai/PSGCNet/framework.png)
+ ![image](https://github.com/gaoguangshuai/PSGCNet/blob/main/framework.png)
  
   ###
   
   The visualization on RSOC
   
-  ![image](https://github.com/gaoguangshuai/PSGCNet/visualization_RSOC.png)
+  ![image](https://github.com/gaoguangshuai/PSGCNet/blob/main/visualization_RSOC.png)
+  
+  The visualziation on CARPK
+  
+  ![image](https://github.com/gaoguangshuai/PSGCNet/blob/main/visualization_CARPK.png)
+  
+  The visualization on crowd counting datasets
+  
+  ![image](https://github.com/gaoguangshuai/PSGCNet/blob/main/visualization_Crowd.png)
   
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+  ###
+  
+  The quantitative result on RSOC
+  
+  
+  ![image](https://github.com/gaoguangshuai/PSGCNet/blob/main/result_RSOC.png)
+  
+   The quantitative result on CARPK and PUBCR+
+  
+  ![image](https://github.com/gaoguangshuai/PSGCNet/blob/main/result_CARPK.png)
+  
+  The quantitative result on DroneCrowd
+  
+  ![image](https://github.com/gaoguangshuai/PSGCNet/blob/main/result_Drone.png)
+  
+  The quantitative result on crowd counting dataset
+  
+  ![image](https://github.com/gaoguangshuai/PSGCNet/blob/main/result_Crowd.png)
+  
  
 ###  
  Code
