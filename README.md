@@ -1,48 +1,52 @@
 ﻿# PSGCNet: A Pyramidal Scale and Global Context Guided Network for Dense Object Counting in Remote Sensing Image
  
+ ************************************************************************************************
+ 
  ###
- 
  The overal framework architecture
- 
- ![image](https://github.com/gaoguangshuai/PSGCNet/blob/main/framework.png)
+ -----------------------------------------------
+ ![](https://github.com/gaoguangshuai/PSGCNet/blob/main/framework.png)
  
   ###
-  
   The visualization on RSOC
+  -----------------------------------------------
+  ![](https://github.com/gaoguangshuai/PSGCNet/blob/main/visualization_RSOC.png)
   
-  ![image](https://github.com/gaoguangshuai/PSGCNet/blob/main/visualization_RSOC.png)
-  
+  ###
   The visualziation on CARPK
+  -----------------------------------------------
+  ![](https://github.com/gaoguangshuai/PSGCNet/blob/main/visualization_CARPK.png)
   
-  ![image](https://github.com/gaoguangshuai/PSGCNet/blob/main/visualization_CARPK.png)
-  
+  ###
   The visualization on crowd counting datasets
-  
-  ![image](https://github.com/gaoguangshuai/PSGCNet/blob/main/visualization_Crowd.png)
+  -----------------------------------------------
+  ![](https://github.com/gaoguangshuai/PSGCNet/blob/main/visualization_Crowd.png)
   
  
   ###
-  
   The quantitative result on RSOC
+  -----------------------------------------------
+  ![](https://github.com/gaoguangshuai/PSGCNet/blob/main/result_RSOC.png)
   
-  
-  ![image](https://github.com/gaoguangshuai/PSGCNet/blob/main/result_RSOC.png)
-  
+   ###
    The quantitative result on CARPK and PUBCR+
+   -----------------------------------------------
+  ![](https://github.com/gaoguangshuai/PSGCNet/blob/main/result_CARPK.png)
   
-  ![image](https://github.com/gaoguangshuai/PSGCNet/blob/main/result_CARPK.png)
-  
+  ### 
   The quantitative result on DroneCrowd
+  -------------------------------------------------
+  ![](https://github.com/gaoguangshuai/PSGCNet/blob/main/result_Drone.png)
   
-  ![image](https://github.com/gaoguangshuai/PSGCNet/blob/main/result_Drone.png)
-  
+  ###
   The quantitative result on crowd counting dataset
-  
-  ![image](https://github.com/gaoguangshuai/PSGCNet/blob/main/result_Crowd.png)
+  --------------------------------------------------
+  ![](https://github.com/gaoguangshuai/PSGCNet/blob/main/result_Crowd.png)
   
  
-###  
+### 
  Code
+ ------------------------------------------------------
 
 ### Install dependencies
 
@@ -52,7 +56,7 @@ This code was tested with python 3.6
 
 ###  Train and Test
 
-1、 Dowload Dataset UCF-QNRF [Link](https://www.crcv.ucf.edu/data/ucf-qnrf/)
+1、 Dowload Dataset
 
 2、 Pre-Process Data (resize image and split train/validation)
 
@@ -77,3 +81,48 @@ The result is slightly influenced by the random seed, but fixing the random seed
 Change dataloader to crowd_sh.py
 
 For shanghaitech a, you should set learning rate to 1e-6, and bg_ratio to 0.1
+
+**********************************************************************************************************
+
+Paper: https://arxiv.org/abs/2012.03597v3
+
+RSOC Dataset：https://pan.baidu.com/s/19hL7O1sP_u2r9LNRsFSjdA  code：nwcx
+
+or at the website https://drive.google.com/drive/my-drive
+but only including building subsets. Other three can be download at https://captain-whu.github.io/DOTA/ according to our provided filenames
+
+CARPK dataset, PUCPR+ dataset: https://lafi.github.io/LPN/
+
+DroneCrowd dataset: https://github.com/VisDrone/DroneCrowd
+
+UCF-QNRF dataset: https://www.crcv.ucf.edu/data/ucf-qnrf/
+
+ShanghaiTech dataset: http://pan.baidu.com/s/1nuAYslz
+
+UCF_CC_50 dataset: https://www.crcv.ucf.edu/data/ucf-cc-50/
+
+
+***************************************************
+References
+
+If you find the PSGCNet useful, please cite our paper. Thank you!
+
+@article{gao2022psgcnet,  
+  title={PSGCNet: A Pyramidal Scale and Global Context Guided Network for Dense Object Counting in Remote-Sensing Images},  
+  author={Gao, Guangshuai and Liu, Qingjie and Hu, Zhenghui and Li, Lu and Wen, Qi and Wang, Yunhong},  
+  journal={IEEE Transactions on Geoscience and Remote Sensing},  
+  volume={60},  
+  pages={1--12},  
+  year={2022},  
+  publisher={IEEE}  
+}
+
+
+
+
+
+
+
+
+
+
